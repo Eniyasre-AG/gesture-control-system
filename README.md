@@ -51,8 +51,9 @@ Install dependencies:
 
 ```bash
 pip install opencv-python mediapipe pyautogui pycaw screen-brightness-control protobuf comtypes
+---
 
-### ▶️ Run the project
+###▶️ Run the project
 python main.py
 
 
