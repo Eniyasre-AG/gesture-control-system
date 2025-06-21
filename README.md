@@ -1,59 +1,74 @@
 # Gesture Control System 💻✋
 
-A Python-based gesture recognition system using **MediaPipe**, **OpenCV**, and **PyAutoGUI** to control mouse, scroll, brightness, and volume with hand gestures. This project enables contactless interaction with your computer using real-time webcam input.
+A Python-based gesture recognition system using **MediaPipe**, **OpenCV**, and **PyAutoGUI** to control mouse, scrolling, brightness, and volume with just your hand gestures in real-time.
 
 ---
 
 ## ✨ Features
 
-- 🖱️ **Mouse Control** via hand movement
-- 👊 **Click and Drag** using Fist gesture
-- ✌️ **V Gesture** for enabling precise pointer tracking
-- 🖐️ **Gesture-based Clicks**
-  - Mid finger for **left click**
-  - Index finger for **right click**
-  - Two fingers closed for **double click**
-- 📉 **Scroll** horizontally and vertically using **Pinch with Left Hand**
-- 💡 **Adjust System Brightness** using **Pinch with Right Hand (X-axis)**
-- 🔊 **Adjust Volume** using **Pinch with Right Hand (Y-axis)**
+- 🖱️ Mouse cursor movement using your hand
+- 👊 Click & Drag with Fist gesture
+- ✌️ V Gesture for pointer activation
+- 🖐️ Gesture-based clicks (left, right, double click)
+- 🤏 Pinch to scroll or change brightness/volume
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Installation
 
-- [Python](https://www.python.org/)
-- [MediaPipe](https://google.github.io/mediapipe/)
-- [OpenCV](https://opencv.org/)
-- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
-- [pycaw](https://github.com/AndreMiras/pycaw) (for volume control)
-- [screen-brightness-control](https://github.com/Crozzers/screen_brightness_control)
+Make sure you have Python 3.7 or later installed.
 
----
-
-## 📷 Gesture Guide
-
-| Gesture | Action |
-|--------|--------|
-| ✌️ V Gesture | Enable tracking |
-| 👊 Fist | Left click + drag |
-| ☝️ Index | Right click |
-| 🖖 Mid Finger | Left click |
-| 🤏 Pinch (Left Hand) | Scroll |
-| 🤏 Pinch (Right Hand) | Adjust Brightness / Volume |
-
----
-
-## 🚀 How to Run
-
-### 🔧 Requirements
-
-Install dependencies:
+Install all required dependencies:
 
 ```bash
 pip install opencv-python mediapipe pyautogui pycaw screen-brightness-control protobuf comtypes
+Note: pycaw and screen-brightness-control work best on Windows.
+
+▶️ How to Run the Project
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/Eniyasre-AG/gesture-control-system.git
+cd gesture-control-system
+Run the Python script:
+
+bash
+Copy
+Edit
+python main.py
+If your script file has a different name (e.g., gesture_controller.py), run:
+
+bash
+Copy
+Edit
+python gesture_controller.py
+Allow webcam access when prompted.
+
+Use hand gestures in front of the camera to interact!
+
+📸 Demo
+(Optional: Insert GIF or screenshot showing the gestures in action here)
+
+📜 License
+This project is licensed under the MIT License.
+
+🙋‍♀️ Author
+Made with ❤️ by Eniya Sre A G
+
+yaml
+Copy
+Edit
+
 ---
 
-###▶️ Run the project
-python main.py
+### 📌 Next Steps:
 
+- Save this content in a file named `README.md` in your project folder.
+- Commit and push:
 
+```bash
+git add README.md
+git commit -m "Add full README with run instructions"
+git push origin main
