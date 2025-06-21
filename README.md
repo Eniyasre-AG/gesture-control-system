@@ -16,8 +16,6 @@ A Python-based gesture recognition system using **MediaPipe**, **OpenCV**, and *
 
 ## 🛠️ Installation
 
-## 🛠️ Installation
-
 Make sure you have Python 3.7 or later installed.
 
 Install all required dependencies:
