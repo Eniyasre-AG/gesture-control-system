@@ -1,4 +1,3 @@
-# gesture-control-system
 # Gesture Control System 💻✋
 
 A Python-based gesture recognition system using **MediaPipe**, **OpenCV**, and **PyAutoGUI** to control mouse, scroll, brightness, and volume with hand gestures. This project enables contactless interaction with your computer using real-time webcam input.
@@ -52,9 +51,8 @@ Install dependencies:
 
 ```bash
 pip install opencv-python mediapipe pyautogui pycaw screen-brightness-control protobuf comtypes
-
+```bash
 ▶️ Run the project
 python main.py
 
-🙋‍♀️ Author
-Eniya Sre A G
+
